@@ -24,10 +24,10 @@ namespace WebMVCApp.Controllers
              
            return View();
         } 
-        public IActionResult Products(){
-               Console.WriteLine("Products  Method is invoked.....");
+//         public IActionResult Products(){
+//                Console.WriteLine("Products  Method is invoked.....");
             
-             return View();
-        }
+//              return View();
+//         }
     }
 }
