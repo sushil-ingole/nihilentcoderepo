@@ -26,6 +26,10 @@ namespace WebMVCApp.Controllers
            return View();
         }
 
+        public IActionResult Aboutus(){
+            this.ViewData["student"]="Sachin More";
+            return View();
+        }
         public IActionResult Privacy()
         {
 
