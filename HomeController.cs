@@ -21,6 +21,9 @@ namespace WebMVCApp.Controllers
 
         public IActionResult Index()
         {
+            int count=56;
+            count++;
+            Console.WriteLine("count to be dispalyed");
             Console.WriteLine("Index Method is invoked.....");
             return View();
         }
