@@ -23,9 +23,7 @@ namespace WebMVCApp.Controllers
         {
             int count=56;
             count++;
-            Console.WriteLine("count to be dispalyed");
-            Console.WriteLine("Index Method is invoked.....");
-            return View();
+           return View();
         }
 
         public IActionResult Privacy()
